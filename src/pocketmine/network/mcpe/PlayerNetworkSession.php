@@ -32,7 +32,7 @@ use pocketmine\Player;
 use pocketmine\Server;
 use pocketmine\timings\Timings;
 
-class PlayerNetworkSessionAdapter{
+class PlayerNetworkSession{
 
 	/** @var Server */
 	private $server;
