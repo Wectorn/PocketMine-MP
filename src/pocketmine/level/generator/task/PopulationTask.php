@@ -21,9 +21,10 @@
 
 declare(strict_types=1);
 
-namespace pocketmine\level\generator;
+namespace pocketmine\level\generator\task;
 
 use pocketmine\level\format\Chunk;
+use pocketmine\level\generator\Generator;
 use pocketmine\level\Level;
 use pocketmine\level\SimpleChunkManager;
 use pocketmine\scheduler\AsyncTask;

@@ -21,10 +21,11 @@
 
 declare(strict_types=1);
 
-namespace pocketmine\level\generator;
+namespace pocketmine\level\generator\task;
 
 use pocketmine\block\BlockFactory;
 use pocketmine\level\biome\Biome;
+use pocketmine\level\generator\Generator;
 use pocketmine\level\Level;
 use pocketmine\level\SimpleChunkManager;
 use pocketmine\scheduler\AsyncTask;

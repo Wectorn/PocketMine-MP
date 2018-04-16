@@ -21,7 +21,7 @@
 
 declare(strict_types=1);
 
-namespace pocketmine\level\generator;
+namespace pocketmine\level\generator\task;
 
 use pocketmine\level\format\Chunk;
 use pocketmine\level\Level;

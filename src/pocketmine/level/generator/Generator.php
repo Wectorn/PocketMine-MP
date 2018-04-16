@@ -27,9 +27,7 @@ declare(strict_types=1);
 namespace pocketmine\level\generator;
 
 use pocketmine\level\ChunkManager;
-use pocketmine\level\generator\hell\Nether;
 use pocketmine\level\generator\noise\Noise;
-use pocketmine\level\generator\normal\Normal;
 use pocketmine\math\Vector3;
 use pocketmine\utils\Random;
 

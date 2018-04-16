@@ -21,14 +21,13 @@
 
 declare(strict_types=1);
 
-namespace pocketmine\level\generator\normal;
+namespace pocketmine\level\generator;
 
 use pocketmine\block\Block;
 use pocketmine\block\BlockFactory;
 use pocketmine\level\biome\Biome;
 use pocketmine\level\ChunkManager;
 use pocketmine\level\generator\biome\BiomeSelector;
-use pocketmine\level\generator\Generator;
 use pocketmine\level\generator\noise\Simplex;
 use pocketmine\level\generator\object\OreType;
 use pocketmine\level\generator\populator\GroundCover;

@@ -21,13 +21,12 @@
 
 declare(strict_types=1);
 
-namespace pocketmine\level\generator\hell;
+namespace pocketmine\level\generator;
 
 use pocketmine\block\Block;
 use pocketmine\level\biome\Biome;
 use pocketmine\level\ChunkManager;
 use pocketmine\level\generator\biome\BiomeSelector;
-use pocketmine\level\generator\Generator;
 use pocketmine\level\generator\noise\Simplex;
 use pocketmine\level\generator\populator\Populator;
 use pocketmine\math\Vector3;
